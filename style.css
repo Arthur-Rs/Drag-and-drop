@@ -1,0 +1,86 @@
+
+/* Configurações Globais */
+
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+h1{
+    font: larger;
+    font-family: Arial;
+}
+h2{
+    font: medium;
+    font-family: Arial;
+}
+
+p{
+    font-family: Arial;
+}
+
+a{
+    font-family: Arial;
+}
+
+/* Configurações Locais*/
+
+.title-page{
+    text-align: center;
+}
+
+.title-header{
+    margin: 0px;
+    width: 50%;
+}
+
+.buttons-menu{
+    text-align: end;  
+    width: 50%;
+}
+
+.btn-menu{
+    padding: 10px;
+    background-color: deepskyblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.btn-menu:hover{
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.btn-menu:active{
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    padding: 30px;
+    border-bottom: 3px solid #5096e4;
+    margin: 0px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #022246;
+    color: #fff;
+    padding: 8px;
+}
+
+.content-login{
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box-login{
+    display: flex;
+}
